@@ -2,7 +2,7 @@ import requests
 import json
 
 # Cargar datos desde archivo
-with open('datos.json', 'r') as f:
+with open('/home/santiago/Escritorio/web/semana04/clase04-1bim-SantiagoVSR/ejemplo04/datos.json', 'r') as f:
     # pasar los datos a estructuras de Python
     data = json.load(f)
 
